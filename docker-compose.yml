@@ -1,0 +1,6 @@
+version: "3.0"
+services: 
+  tark-restful-api:
+    image: matthewytark/tark-restful-api
+    ports:
+      - 8080:8080
