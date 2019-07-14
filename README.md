@@ -16,4 +16,4 @@ Date: 7/13/2019
 
 ## Steps to ...
 1. Create the docker container and start all services defined docker-compose.yml file: ``docker-compose -f [PATH]/docker-compose.yml up``
-2. n a browser, enter the following: ``localhost:8080/getCurrentSeason``
+2. In a browser, enter the following: ``localhost:8080/getCurrentSeason``
