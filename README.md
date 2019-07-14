@@ -14,6 +14,6 @@ Date: 7/13/2019
 7. Getting the year - Since the Year of the Current NFL season changes on July 1st, if the current date when the service is called is BEFORE July 1st, we use the previous year. Otherwise, add one to the year. Ex: If the service is called 6/30/2019, the year returned will be 2018; 7/2/2019 will return 2019.
 
 
-## Steps to ...
+## Steps to run service
 1. Create the docker container and start all services defined docker-compose.yml file: ``docker-compose -f [PATH]/docker-compose.yml up``
 2 In a browser, enter the following: ``localhost:8080/getCurrentSeason``
