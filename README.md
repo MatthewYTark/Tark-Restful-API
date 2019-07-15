@@ -35,6 +35,7 @@ At first, I installed Tomcat and tried to run my application over it, but I read
 Since the Year of the Current NFL season changes on July 1st, if the current date when the service is called is BEFORE July 1st, we use the previous year. Otherwise, add one to the year. Ex: If the service is called 6/30/2019, the year returned will be 2018; 7/2/2019 will return 2019.
 
 
-## Steps to  get the service up and running
-1. Create the docker container and start all services defined in the docker-compose.yml file: ``docker-compose -f [PATH]/docker-compose.yml up``
-2. In a browser, enter the following: ``http://localhost:8080/getCurrentSeason``
+## Steps to get the service up and running
+1. Be sure to checkout and have the docker-compose.yml on your local machine.
+2. Create the docker container and start all services defined in the docker-compose.yml file: ``docker-compose -f [PATH]/docker-compose.yml up``
+3. In a browser, enter the following: ``http://localhost:8080/getCurrentSeason``
