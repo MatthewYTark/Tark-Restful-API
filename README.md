@@ -20,7 +20,7 @@ To create the image, I executed the ``docker build -t [NAME TO GIVE IMAGE] .`` c
 
 #### Compose file
 
-The YAML file "docker-compose.yml" defines the application services in   the container and pushlishes the ports. I executed ``docker-compose -p [PATH] up`` to create the docker container and start all services defined docker-compose.yml file. You could also go to the location of the YAML file and run ``docker-compose up`` only.
+The YAML file "docker-compose.yml" defines the application services in the container and pushlishes the ports. I executed ``docker-compose -f [PATH] up`` to create the docker container and start all services defined docker-compose.yml file. You could also go to the location of the YAML file and run ``docker-compose up`` only. Furthermore, it is important ot note, the image defined in the docker-compose file will be the image pulled from Dockerhub or your local machine.
 
 #### Pushing my image to Docker Hub
 
