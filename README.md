@@ -36,5 +36,5 @@ Since the Year of the Current NFL season changes on July 1st, if the current dat
 
 
 ## Steps to  get the service up and running
-1. Create the docker container and start all services defined docker-compose.yml file: ``docker-compose -f [PATH]/docker-compose.yml up``
+1. Create the docker container and start all services defined in the docker-compose.yml file: ``docker-compose -f [PATH]/docker-compose.yml up``
 2. In a browser, enter the following: ``http://localhost:8080/getCurrentSeason``
